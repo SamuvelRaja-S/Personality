@@ -10,7 +10,7 @@ def create_database():
             host="localhost",
             port="3306",
             user="root",
-            password="sam@2004@"
+            password=""
         )
         
         if connection.is_connected():
@@ -76,7 +76,7 @@ def store_files_in_db():
             host="localhost",
             port="3306",
             user="root",
-            password="sam@2004@",
+            password="",
             database='file_storage_db'
         )
         
