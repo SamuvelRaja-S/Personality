@@ -30,7 +30,7 @@ def retrieve_from_db(name):
             host="localhost",
             port="3306",
             user="root",
-            password="sam@2004@",
+            password="",
             database="file_storage_db"
         )
         
